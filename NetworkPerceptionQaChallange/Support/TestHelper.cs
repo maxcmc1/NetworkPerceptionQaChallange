@@ -17,6 +17,7 @@ namespace NetworkPerceptionQaChallange.Support
         {
             return new WebDriverWait(driver, TimeSpan.FromSeconds(timeout));
         }
+
         public static WebDriverWait GetWait(IWebDriver driver)
         {
             return GetWait(driver, 10);
